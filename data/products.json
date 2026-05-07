@@ -1,20 +1,12 @@
-[
-  {
-    "name": "Natural Yellow Sapphire",
-    "type": "Yellow Sapphire",
-    "weight": "1.78 cts",
-    "origin": "Ceylon / Sri Lanka",
-    "price": "Contact for price",
-    "status": "Available",
-    "highlights": ["Natural gemstone", "Super luster", "Cushion cut", "Ideal for jewellery or collection"],
-    "description": "A bright natural yellow sapphire with super luster and attractive face-up colour.",
-    "images": [
-      "assets/gems/yellow-sapphire-8.jpeg",
-      "assets/gems/yellow-sapphire-7.jpeg",
-      "assets/gems/yellow-sapphire-6.jpeg",
-      "assets/gems/yellow-sapphire-5.jpeg",
-      "assets/gems/yellow-sapphire-4.jpeg",
-      "assets/gems/yellow-sapphire-3.jpeg"
-    ]
-  }
-]
+{
+  "products": [
+    {
+      "name": "Natural Padparacha Sapphire",
+      "price": "60000",
+      "weight": "1+ Carats",
+      "description": "Sunset captured in a gemstone 🌅\nRare Padparadscha Sapphire (1+ cts) — where delicate pink meets warm orange in perfect harmony. A true collector’s treasure, celebrated for its unique color and timeless elegance.\n💎 100% Natural Stone\n💎 Rare & Investment-worthy\n💎 Perfect for a statement ring or pendant\nOwn a gem that nature creates only in whispers — not in abundance.\nDM now to secure this beauty before it’s gone.\n077 327 8596",
+      "status": "Available",
+      "image": "/assets/gems/07.jpeg"
+    }
+  ]
+}

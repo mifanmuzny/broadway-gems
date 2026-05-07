@@ -2,6 +2,7 @@ backend:
   name: github
   repo: mifanmuzny/broadway-gems
   branch: main
+  base_url: https://sveltia-cms-auth.mifanmuzny.workers.dev
 
 media_folder: "assets/gems"
 public_folder: "/assets/gems"

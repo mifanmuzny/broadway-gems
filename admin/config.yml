@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: mifanmuzny/broadway-gems
+  branch: main
+
+media_folder: "assets/gems"
+public_folder: "/assets/gems"
+
+collections:
+  - name: "gems"
+    label: "Gem Collection"
+    folder: "data/gems"
+    create: true
+    slug: "{{slug}}"
+
+    fields:
+      - { label: "Gem Name", name: "title", widget: "string" }
+
+      - { label: "Price", name: "price", widget: "string" }
+
+      - { label: "Weight", name: "weight", widget: "string" }
+
+      - { label: "Description", name: "description", widget: "text" }
+
+      - { label: "Status", name: "status", widget: "select", options: ["Available", "Sold", "Out of Stock"] }
+
+      - { label: "Image", name: "image", widget: "image" }

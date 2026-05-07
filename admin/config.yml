@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: mifanmuzny/broadway-gems
+  name: git-gateway
   branch: main
 
 media_folder: "assets/gems"

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Natural Yellow Sapphire",
+    "type": "Yellow Sapphire",
+    "weight": "1.78 cts",
+    "origin": "Ceylon / Sri Lanka",
+    "price": "Contact for price",
+    "status": "Available",
+    "highlights": ["Natural gemstone", "Super luster", "Cushion cut", "Ideal for jewellery or collection"],
+    "description": "A bright natural yellow sapphire with super luster and attractive face-up colour.",
+    "images": [
+      "assets/gems/yellow-sapphire-8.jpeg",
+      "assets/gems/yellow-sapphire-7.jpeg",
+      "assets/gems/yellow-sapphire-6.jpeg",
+      "assets/gems/yellow-sapphire-5.jpeg",
+      "assets/gems/yellow-sapphire-4.jpeg",
+      "assets/gems/yellow-sapphire-3.jpeg"
+    ]
+  }
+]

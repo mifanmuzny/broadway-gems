@@ -8,21 +8,20 @@ media_folder: "assets/gems"
 public_folder: "/assets/gems"
 
 collections:
-  - name: "gems"
-    label: "Gem Collection"
-    folder: "data/gems"
-    create: true
-    slug: "{{slug}}"
-
-    fields:
-      - { label: "Gem Name", name: "title", widget: "string" }
-
-      - { label: "Price", name: "price", widget: "string" }
-
-      - { label: "Weight", name: "weight", widget: "string" }
-
-      - { label: "Description", name: "description", widget: "text" }
-
-      - { label: "Status", name: "status", widget: "select", options: ["Available", "Sold", "Out of Stock"] }
-
-      - { label: "Image", name: "image", widget: "image" }
+  - name: "products"
+    label: "Gem Products"
+    files:
+      - name: "products"
+        label: "Products List"
+        file: "data/products.json"
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+            fields:
+              - { label: "Gem Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string", required: false }
+              - { label: "Weight", name: "weight", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Status", name: "status", widget: "select", options: ["Available", "Sold", "Out of Stock"] }
+              - { label: "Image", name: "image", widget: "image" }

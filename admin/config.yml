@@ -2,7 +2,8 @@ backend:
   name: github
   repo: mifanmuzny/broadway-gems
   branch: main
-  site_domain: broadwaygems.netlify.app
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "assets/gems"
 public_folder: "/assets/gems"
